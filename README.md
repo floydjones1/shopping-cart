@@ -8,6 +8,9 @@ This app uses localstorage to keep user data between reloads.
 
 One test available in Navbar component
 
+Please note only reload on home route works because Github pages tried to find a file like /cart
+Visit the link [here](https://floydjones1.github.io/shopping-cart/)
+
 #### Routes
 
 ```
