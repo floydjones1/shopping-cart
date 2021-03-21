@@ -9,7 +9,6 @@ module.exports = {
     path: path.resolve(__dirname, "docs"),
     filename: "js/[name].[contenthash].js",
     assetModuleFilename: "assets/[hash][ext][query]",
-    publicPath: "/",
   },
   devtool: "source-map",
   resolve: {

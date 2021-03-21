@@ -6,9 +6,11 @@ import Navbar from "./components/Navbar";
 
 import Home from "./pages/index";
 
+const baseUrl = "shopping-cart";
+
 const routes = () => {
   return (
-    <Router>
+    <Router basename={baseUrl}>
       <Navbar />
       <Switch>
         <Route exact path="/">
