@@ -61,7 +61,6 @@ const CartProvider: React.FC = ({ children }) => {
         (item) => item.id === id && item.size === size
       );
       items.splice(index, 1);
-      console.log(items);
       return [...items];
     });
   };

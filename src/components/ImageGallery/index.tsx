@@ -33,7 +33,6 @@ const ImageGallery: React.FC<ImageGalleryProps> = (props) => {
       .then((res) => {
         const links = linkParser(res.headers.get("link")!);
         links?.next ? setHasNextPage(true) : setHasNextPage(false);
-        console.log({ links });
         return res;
       })
       .then((res) => res.json())

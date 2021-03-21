@@ -10,9 +10,11 @@ One test available in Navbar component
 
 #### Routes
 
+```
 / ---> Home
 /product/{id} ---> Item page can add to cart
 /cart ----> Can view your cart
+```
 
 ## Geting started
 
