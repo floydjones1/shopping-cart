@@ -30,6 +30,7 @@ const ImageGrid: React.FC<ProductGridProps> = (props) => {
     <Card style={{ width: 240 }}>
       <CardMedia
         component="img"
+        style={{ backgroundColor: "#D3D3D3" }}
         image={getImageWithDimensions(imgUrl, id, 1280, 720)}
         height="140"
         width="240"
